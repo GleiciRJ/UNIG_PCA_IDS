@@ -948,7 +948,6 @@ def Educacao():
         lista_palavras = f.readlines()
         lista_palavras = [x.strip() for x in lista_palavras]
 
-    #lista_palavras = ['cow','dog','cat','pig','zebra','bird','giraffe','lion','tiger','penguin','hamster','fox','panda','bear','cheetah','ostrich','meerkat','whale','shark','horse','monkey','octopus','kitten','kangaroo','chicken','fish','rabbit','sheep']
     title = "Educação"
     hangmanGame(lista_palavras,title)
 
